@@ -31,7 +31,7 @@ app.use(session({
 
 // Settingup Passport 
 app.use(passport.initialize());
-app.use(passport.session());
+app.use(passport.session());  // yo site ko session Passport le handel garxa vanera vaneko
 
 // Database Setup
 mongoose.connect("mongodb://localhost:27017/usersDB", {
